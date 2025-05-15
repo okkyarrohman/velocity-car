@@ -21,13 +21,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'okkyproj_velocity' );
+define( 'DB_NAME', 'proyekku_velocity_transport' );
 
 /** Database username */
-define( 'DB_USER', 'okkyproj_velocity' );
+define( 'DB_USER', 'proyekku_velocity_transport' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'velocity123_' );
+define( 'DB_PASSWORD', 'VelocityTransport' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -91,8 +91,8 @@ if ( ! defined( 'WP_DEBUG' ) ) {
 	define( 'WP_DEBUG', false );
 }
 
-define('WP_HOME', 'https://velocity.okkyprojects.com');
-define('WP_SITEURL', 'https://velocity.okkyprojects.com');
+define('WP_HOME', 'https://velocity-transport.proyekku.com');
+define('WP_SITEURL', 'https://velocity-transport.proyekku.com');
 define( 'WP_ENVIRONMENT_TYPE', 'local' );
 /* That's all, stop editing! Happy publishing. */
 
